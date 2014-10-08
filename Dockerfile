@@ -20,6 +20,7 @@ RUN apt-get install -y ruby-dev
 RUN gem update
 RUN gem install compass
 RUN npm install -g karma
+RUN apt-get install -y xdg-utils
 RUN apt-get update --fix-missing
 
 # Cleanup
